@@ -2,3 +2,5 @@
 main:
   - title: "카테고리"
     url: /categories/
+  - title: "iOS"
+    url: /iOS/

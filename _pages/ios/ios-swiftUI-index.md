@@ -1,8 +1,8 @@
 --- 
 
-title: "iOS"
+title: "SwiftUI"
 layout: single
-permalink: /iOS/
 author_profile: true
 
 ---
+

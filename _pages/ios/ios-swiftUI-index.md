@@ -18,3 +18,7 @@ Create your own custom views that conform to the View protocol, and compose them
 
 1. [View Layout and Presentation]({{ site.baseurl }}{% link _posts/ios/swiftui/2020-01-11-view_layout_and_presentation.md %})
 
+### Architectural Views
+1. NavigationView
+
+

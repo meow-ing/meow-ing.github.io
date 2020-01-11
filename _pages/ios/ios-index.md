@@ -3,7 +3,7 @@
 title: "iOS"
 layout: single
 permalink: /iOS/
-author_profile: true
+author_profile: false
 
 ---
 

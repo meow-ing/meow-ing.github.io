@@ -14,11 +14,11 @@ SwiftUI provides views, controls, and layout structures for declaring your app's
 
 Create your own custom views that conform to the View protocol, and compose them with SwiftUI views for displaying text, images, and custom shapes using stacks, lists, and more. Apply powerful modifiers to built-in views and your own views to customize their rendering and interactivity. Share code between apps on multiple platforms with views and controls that adapt to their context and presentation.
 
-### User Interface
+## User Interface
 
 1. [View Layout and Presentation]({{ site.baseurl }}{% link _posts/ios/swiftui/2020-01-11-view_layout_and_presentation.md %})
 
-### Architectural Views
+## Architectural Views
 1. NavigationView
 
 

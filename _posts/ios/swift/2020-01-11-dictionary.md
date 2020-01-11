@@ -15,6 +15,8 @@ key-value로 쌍을 이루는 collection
 @frozen struct Dictionary<Key, Value> where Key : Hashable
 ```
 
+* [Hashable]({{ site.baseurl }}{% link _posts/ios/swift/2020-01-11-hashable.md %})
+
 ## Overview
 
 Dictionary는 해시 테이블로, entry에 빠르게 접근할 수 있다.  

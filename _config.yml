@@ -306,3 +306,31 @@ defaults:
       comments: false
       share: false
       related: true
+  
+  # _posts/ios
+  - scope:
+      path: _posts/ios
+    values:
+      categories:
+        - iOS
+        
+  # _posts/ios/siwft
+  - scope:
+      path: _posts/ios/swift
+    values:
+      tags:
+        - Swift
+   
+  # _posts/ios/siwftui
+  - scope:
+      path: _posts/ios/swiftui
+    values:
+      tags:
+        - SwiftUI
+        
+  # _posts/ios/uikit
+  - scope:
+      path: _posts/ios/uikit
+    values:
+      tags:
+        - UIKit

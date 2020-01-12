@@ -6,13 +6,13 @@ author_profile: false
 
 ---
 
-이벤트 처리 연산자를 결합해서 비동기 이벤트 처리를 커스텀마이징(사용자화).
+combine 이벤트 처리 연산자로 비동기 이벤트를 커스텀하게 처리.
 
 --- 
 
 ## Overview
 
-Combine framework는 시간의 흐름에 따라 처리할 수 있는 선언적(?) Swift API를 제공한다.  
+Combine framework는 시간의 흐름에 따라 처리할 수 있는 선언적 Swift API를 제공한다.  
 이 값들은 많은 종류의 비동기 이벤트들을 표현할 수 있다.  
 Combine은 계속 바뀌는 값을 노출하기 위해 _publisher_ 를 선언한다.   
 그리고 publisher가 노출하는 값들을 수신하기 위해  _subscriber_ 를 선언한다. 

@@ -8,6 +8,8 @@ author_profile: false
 
 이벤트 처리 연산자를 결합해서 비동기 이벤트 처리를 커스텀마이징(사용자화).
 
+--- 
+
 ## Overview
 
 Combine framework는 시간의 흐름에 따라 처리할 수 있는 선언적(?) Swift API를 제공한다.  
@@ -30,7 +32,9 @@ Combine은 또한 Key-Value Observing을 준수하는 property에 대해 장착�
 Combine을 이용해서, 이벤트 처리 코드를 중앙 집중화하고 중첩 클로저 및 convension-based 콜백들을 제거해서 일기 쉽고 유지보수하기 쉬운 코드를 작성할 수 있을 것이다. 
 
 ## Topic
-## Essentials
+### Essentials
 
-## Publishers
+1. [Receiving and Handling Events with Combine]({{ site.baseurl }}{% link _posts/ios/combine/2020-01-12-doc_combine_receiving_and_handling_events_with_combine.md %})
+
+### Publishers
 

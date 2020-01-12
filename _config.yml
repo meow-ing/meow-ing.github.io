@@ -335,3 +335,10 @@ defaults:
     values:
       tags:
         - UIKit
+
+  # _posts/ios/combine
+  - scope:
+      path: _posts/ios/combine
+    values:
+      tags:
+        - Combine

@@ -7,16 +7,19 @@ categories:
 
 ---
 
-instance property.  
-UIKit에게 `윈도우에서` first responder가 되게 요청하는 메소드.
+`instance property`   
+UIKit에게 <b>윈도우</b>에서 first responder가 되게 요청하는 메소드.
 
-### Declaration
+--- 
+
+
+## Declaration
 
 ``` swift
 func becomeFirstResponder() -> Bool
 ```
 
-### Discussion
+## Discussion
 
 객체가 first responder가 되기 원할 때 메소드 호출. 하지만 first responder가 되는건 보장 못 함.  
 해당 메소드가 호출 되면 UIKit은 현재 first responder에게 resign 할 수 있을지 물어봄.(아마도 거절할테지만..). 

@@ -6,16 +6,19 @@ categories:
 - iOS
 
 ---
-Class.  
+
+`Class`<br>
 이벤트에 응답하고 처리하기 위한 추상 인터페이스.
 
-### Declaration
+---
+
+## Declaration
 
 ``` swift
 class UIResponder : NSObject
 ```
 
-### Overview
+## Overview
 
 UIResponder의 인스턴스인 responder 객체들은 UIKit 앱의 이벤트 처리 백본을 구성.  
 UIApplication 객체, UIViewController 객체, 모든 UIView 객체(UIWindow 포함)등 중요 객체들 또한 reponder이다.  
@@ -50,7 +53,8 @@ responder와 커스텀 input view를 연결하려면, responder의 inputView pro
 <br>
 [참고 링크](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events)
 
-## Managing the Responder Chain
+## Topic
+### Managing the Responder Chain
 
 1. [var next: UIResponder?]({{ site.baseurl }}{% link _posts/ios/uikit/2020-01-11-uiresponder_next.md %})
 2. [var isFirstResponder: Bool]({{ site.baseurl }}{% link _posts/ios/uikit/2020-01-11-uiresponder_ is_first_responder.md %})
@@ -59,9 +63,10 @@ responder와 커스텀 input view를 연결하려면, responder의 inputView pro
 5. [var canResignFirstResponder: Bool]({{ site.baseurl }}{% link _posts/ios/uikit/2020-01-11-uiresponder_can_resign_first_responder.md %})
 6. [func resignFirstResponder() -> Bool]({{ site.baseurl }}{% link _posts/ios/uikit/2020-01-11-uiresponder_resign_first_responder.md %})
 
-### 견해
+#### 견해
 
 이해한게 맞다면 아래와 같이 동작할 것 같다.(Resign 과정도 동일)
+
 1. 특정 객체가 first responder가 되고 싶음.
 2. 객체의 윈도우에 first responder가 되고 싶다고 요청. : becomeFirstResponder()
 3. 객체의 상태를 확인하고 first responder로 지정할지 말지 결정. : canBecomeFirstResponder property

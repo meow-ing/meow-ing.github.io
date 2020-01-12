@@ -1,22 +1,21 @@
 ---
 
 title: "UIResponder - canResignFirstResponder"
-author_profile: false
-categories:
-- iOS
 
 ---
 
-instance property.  
+`instance property`   
 수신자가 first responder를 포기할지 말지 Boolean값 리턴.
 
-### Declaration
+--- 
+
+## Declaration
 
 ``` swift
 var canResignFirstResponder: Bool { get }
 ```
 
-### Discussion
+## Discussion
 
 Default 값은 true.  
 커스텀 responder에서 해당 메소드 override 해서 원하는 값 리턴 가능.  

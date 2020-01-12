@@ -1,22 +1,21 @@
 ---
 
 title: "UIResponder - next"
-author_profile: false
-categories:
-- iOS
 
 ---
 
-instance property.  
+`instance property`    
 resopnder 체인의 next responder를 리턴. next responder가 없으면 nil를 리턴.
 
-### Declaration
+--- 
+
+## Declaration
 
 ``` swift
 var next: UIResponder? { get }
 ```
 
-### Discussion
+## Discussion
 
 UIResponder 클래스는 next responder를 자동으로 저장하고나 set하지 않는다.  
 그러기 때문에 default값은 nil이다.  

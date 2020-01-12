@@ -1,22 +1,21 @@
 ---
 
 title: "UIResponder - resignFirstResponder()"
-author_profile: false
-categories:
-- iOS
 
 ---
 
-instance Method.  
-`윈도우`에서 해당 객체가 first responder를 포기(양도)할거라고 알리는 메소드.
+`instance Method`    
+<b>윈도우</b>에서 해당 객체가 first responder를 포기(양도)할거라고 알리는 메소드.
 
-### Declaration
+---
+
+## Declaration
 
 ``` swift
 func resignFirstResponder() -> Bool
 ```
 
-### Discussion
+## Discussion
 
 Default 값은 true.  
 커스텀 responder에서 해당 메소드 override 해서 원하는 값 리턴 가능.  

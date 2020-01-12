@@ -10,8 +10,9 @@ categories:
 
 Decide how to store data and model behavior.
 
+---
 
-### Overview
+## Overview
 
 * Struct를 기본으로 사용하라.
 * Objective-c와 사용해야한다면Class 사용 권장.

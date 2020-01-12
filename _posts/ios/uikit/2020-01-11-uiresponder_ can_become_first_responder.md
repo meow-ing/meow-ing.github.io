@@ -1,22 +1,21 @@
 ---
 
 title: "UIResponder - canBecomeFirstResponder"
-author_profile: false
-categories:
-- iOS
 
 ---
 
-instance property.  
+`instance property`  
 해당 객체가 first responder가 될수 있을지 안될지 Boolean값 리턴.
 
-### Declaration
+--- 
+
+## Declaration
 
 ``` swift
 var canBecomeFirstResponder: Bool { get }
 ```
 
-### Discussion
+## Discussion
 
 default값으로 false를 리턴.  
 Subclass는 해당 메소드를 꼭 override 해야햠.  
